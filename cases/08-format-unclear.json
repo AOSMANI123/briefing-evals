@@ -1,0 +1,24 @@
+{
+  "id": "08-format-unclear",
+  "trap": "Format is left open. Drafters like to pick one.",
+  "source": "Subject: Something at Northgate Civic Week?\n\nHi,\n\nNorthgate Civic Week runs October 12-16, 2027 in Minneapolis, MN. We'd love your CEO to be part of it in whatever way works. We're flexible on what that looks like.\n\nBest,\nBen Alvarez\nCivic Week Coordinator, City of Northgate Partners",
+  "expected": {
+    "event_name": "Northgate Civic Week",
+    "date": [
+      "October 12-16, 2027",
+      "October 12 16 2027",
+      "October 12"
+    ],
+    "location": "Minneapolis",
+    "format": null,
+    "moderator": null,
+    "audience_size": null,
+    "requestor_name": "Ben Alvarez",
+    "requestor_org": "City of Northgate Partners",
+    "ask": [
+      "part of it",
+      "flexible",
+      "whatever way"
+    ]
+  }
+}

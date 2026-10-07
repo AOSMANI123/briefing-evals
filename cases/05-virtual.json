@@ -1,0 +1,29 @@
+{
+  "id": "05-virtual",
+  "trap": "Virtual event. No physical location should be invented.",
+  "source": "Subject: Invitation: Open Classroom livestream\n\nHi,\n\nOpen Classroom Foundation is hosting a livestreamed Q&A with students on September 22, 2027. It is fully virtual. Our student host, Leo Martins, will ask the questions. Last year's stream reached 40,000 viewers.\n\nCould your CEO join for 20 minutes?\n\nNadia Kovacs\nProgram Manager, Open Classroom Foundation",
+  "expected": {
+    "event_name": [
+      "Open Classroom livestream",
+      "Open Classroom"
+    ],
+    "date": "September 22, 2027",
+    "location": [
+      "virtual",
+      "livestream",
+      "online"
+    ],
+    "format": [
+      "Q&A",
+      "livestream"
+    ],
+    "moderator": "Leo Martins",
+    "audience_size": null,
+    "requestor_name": "Nadia Kovacs",
+    "requestor_org": "Open Classroom Foundation",
+    "ask": [
+      "20 minutes",
+      "Q&A"
+    ]
+  }
+}

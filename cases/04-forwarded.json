@@ -1,0 +1,21 @@
+{
+  "id": "04-forwarded",
+  "trap": "Email was forwarded by a colleague. The requestor is the original sender.",
+  "source": "Subject: FW: Panel invitation - Future of Work Week\n\nForwarding this one along, looks like a fit. - Chris (internal)\n\n---------- Forwarded message ----------\nFrom: Aisha Rahman, Head of Partnerships, Meridian Labor Forum\nSubject: Panel invitation - Future of Work Week\n\nWe'd like to invite your CEO to join a panel on AI and the workforce during Future of Work Week, on June 17, 2027, in Washington, DC. The panel will be moderated by journalist Evan Brooks. Audience: about 1,200 policymakers and employers.\n\nAisha",
+  "expected": {
+    "event_name": "Future of Work Week",
+    "date": "June 17, 2027",
+    "location": "Washington",
+    "format": "panel",
+    "moderator": "Evan Brooks",
+    "audience_size": [
+      "1,200",
+      "1200"
+    ],
+    "requestor_name": "Aisha Rahman",
+    "requestor_org": "Meridian Labor Forum",
+    "ask": [
+      "panel"
+    ]
+  }
+}

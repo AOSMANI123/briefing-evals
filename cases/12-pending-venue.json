@@ -1,0 +1,19 @@
+{
+  "id": "12-pending-venue",
+  "trap": "Venue pending. City known, venue not. Only the city should appear.",
+  "source": "Subject: Invitation - Great Lakes Climate Forum\n\nHi,\n\nThe Great Lakes Climate Forum will take place on March 30, 2027 in Cleveland, OH (venue pending final contract). We're inviting your CEO for a 15-minute keynote on corporate climate commitments before an audience of about 900. Our executive director, Sofia Brandt, would host.\n\nKind regards,\nMalik Johnson\nPartnerships Manager, Great Lakes Climate Alliance",
+  "expected": {
+    "event_name": "Great Lakes Climate Forum",
+    "date": "March 30, 2027",
+    "location": "Cleveland",
+    "format": "keynote",
+    "moderator": "Sofia Brandt",
+    "audience_size": "900",
+    "requestor_name": "Malik Johnson",
+    "requestor_org": "Great Lakes Climate Alliance",
+    "ask": [
+      "keynote",
+      "15-minute"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "06-two-events",
+  "trap": "Two events are mentioned. Only one is the ask.",
+  "source": "Subject: Two things from Harborview\n\nHi,\n\nQuick note that our Harborview Tech Gala on April 2, 2027 is sold out, so no need to consider that one.\n\nThe actual ask: would your CEO record a 5-minute video message for our Harborview Scholars Ceremony on April 20, 2027? It's held in Seattle, WA for about 300 scholarship recipients and families.\n\nThanks so much,\nGrace Liu\nFoundation Relations, Harborview Community Foundation",
+  "expected": {
+    "event_name": "Harborview Scholars Ceremony",
+    "date": "April 20, 2027",
+    "location": "Seattle",
+    "format": [
+      "video message",
+      "video"
+    ],
+    "moderator": null,
+    "audience_size": "300",
+    "requestor_name": "Grace Liu",
+    "requestor_org": "Harborview Community Foundation",
+    "ask": [
+      "video message",
+      "5-minute"
+    ]
+  }
+}

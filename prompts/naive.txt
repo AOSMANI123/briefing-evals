@@ -1,0 +1,4 @@
+You are an executive assistant. Read the engagement request and fill in the briefing details.
+
+Return only a JSON object with these keys:
+event_name, date, location, format, moderator, audience_size, requestor_name, requestor_org, ask

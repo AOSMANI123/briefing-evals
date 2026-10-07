@@ -1,0 +1,22 @@
+{
+  "id": "11-no-signature",
+  "trap": "No name in a signature. Requestor name must come from the text or be UNKNOWN.",
+  "source": "Subject: Roundtable request\n\nThe Pacific Retail Association is convening a closed-door CEO roundtable on supply chains on February 24, 2027 in San Francisco, CA, for 25 retail executives. We would be grateful if your CEO could attend and offer opening remarks.\n\nPacific Retail Association events team",
+  "expected": {
+    "event_name": [
+      "CEO roundtable",
+      "roundtable"
+    ],
+    "date": "February 24, 2027",
+    "location": "San Francisco",
+    "format": "roundtable",
+    "moderator": null,
+    "audience_size": "25",
+    "requestor_name": null,
+    "requestor_org": "Pacific Retail Association",
+    "ask": [
+      "opening remarks",
+      "attend"
+    ]
+  }
+}

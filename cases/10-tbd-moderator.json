@@ -1,0 +1,16 @@
+{
+  "id": "10-tbd-moderator",
+  "trap": "Moderator explicitly TBD. Should be UNKNOWN, not a guess.",
+  "source": "Subject: Fireside at the Summit for Rural Broadband\n\nHello,\n\nThe Summit for Rural Broadband is on July 7, 2027 in Des Moines, IA, with roughly 800 attendees. We'd like to feature your CEO in a fireside chat. Moderator: TBD, we're confirming with a few journalists.\n\nRegards,\nHannah Okafor\nPolicy Director, Rural Connect Coalition",
+  "expected": {
+    "event_name": "Summit for Rural Broadband",
+    "date": "July 7, 2027",
+    "location": "Des Moines",
+    "format": "fireside chat",
+    "moderator": null,
+    "audience_size": "800",
+    "requestor_name": "Hannah Okafor",
+    "requestor_org": "Rural Connect Coalition",
+    "ask": "fireside chat"
+  }
+}
