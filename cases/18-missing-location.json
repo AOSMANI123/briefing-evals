@@ -1,0 +1,17 @@
+{
+  "id": "18-missing-location",
+  "category": "missing_field",
+  "trap": "In-person event with no city given. Drafters guess one.",
+  "source": "Subject: Panel - Open Road Freight Conference\n\nHello,\n\nThe Open Road Freight Coalition invites your CEO to speak on a panel at the Open Road Freight Conference on February 23, 2027. Trade journalist Dee Sandoval will moderate, and around 250 fleet operators will be in the room.\n\nBest regards,\nAaron Pike\nEvents Manager, Open Road Freight Coalition",
+  "expected": {
+    "event_name": "Open Road Freight Conference",
+    "date": "February 23, 2027",
+    "location": null,
+    "format": "panel",
+    "moderator": "Dee Sandoval",
+    "audience_size": "250",
+    "requestor_name": "Aaron Pike",
+    "requestor_org": "Open Road Freight Coalition",
+    "ask": "panel"
+  }
+}

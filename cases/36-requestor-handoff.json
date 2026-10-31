@@ -1,0 +1,22 @@
+{
+  "id": "36-requestor-handoff",
+  "category": "attribution",
+  "trap": "The original requestor has left. The new sender took over the request.",
+  "source": "Subject: RE: Panel at Golden Gate Nonprofit Summit\n\nHi,\n\nI'm taking over this request from Marisol, who has left the organization. To recap: the Bay Area Nonprofit Alliance would like your CEO on a panel at the Golden Gate Nonprofit Summit on October 20, 2027 in San Francisco, CA. Ana Ruiz will moderate, and we expect 400 attendees.\n\nBest,\nVictor Lam\nSenior Program Manager, Bay Area Nonprofit Alliance",
+  "expected": {
+    "event_name": "Golden Gate Nonprofit Summit",
+    "date": "October 20, 2027",
+    "location": "San Francisco",
+    "format": "panel",
+    "moderator": "Ana Ruiz",
+    "audience_size": "400",
+    "requestor_name": "Victor Lam",
+    "requestor_org": "Bay Area Nonprofit Alliance",
+    "ask": "panel"
+  },
+  "forbidden": {
+    "requestor_name": [
+      "Marisol"
+    ]
+  }
+}

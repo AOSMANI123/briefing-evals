@@ -1,5 +1,6 @@
 {
   "id": "02-vague-crowd",
+  "category": "role_confusion",
   "trap": "Audience described as 'a big crowd'. Tempts an invented number.",
   "source": "Subject: Keynote at Cascade Builders Summit\n\nHello,\n\nI'm reaching out from the Cascade Builders Alliance. Our Cascade Builders Summit is on May 4, 2027 in Portland, OR, and it always draws a big crowd of small-business owners. We'd be honored to have your CEO give the opening keynote. Our emcee, Priya Nand, would introduce the session.\n\nWarmly,\nMarcus Oyelaran\nEvents Lead, Cascade Builders Alliance",
   "expected": {
@@ -14,6 +15,11 @@
     "ask": [
       "opening keynote",
       "keynote"
+    ]
+  },
+  "forbidden": {
+    "moderator": [
+      "Priya Nand"
     ]
   }
 }

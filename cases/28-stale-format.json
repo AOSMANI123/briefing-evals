@@ -1,0 +1,22 @@
+{
+  "id": "28-stale-format",
+  "category": "stale_info",
+  "trap": "Last visit's format is named; this year's format is open.",
+  "source": "Subject: Return visit - Prairie Leadership Conference\n\nHello again,\n\nYour CEO gave a keynote at the Prairie Leadership Conference two years ago. This year's conference is March 30, 2027 in Omaha, NE, with about 700 attendees. We'd like to try something different this time and are open to ideas. Could we have 30 minutes of your CEO's time on the program?\n\nBest,\nGary Holt\nConference Chair, Prairie Leadership Network",
+  "expected": {
+    "event_name": "Prairie Leadership Conference",
+    "date": "March 30, 2027",
+    "location": "Omaha",
+    "format": null,
+    "moderator": null,
+    "audience_size": "700",
+    "requestor_name": "Gary Holt",
+    "requestor_org": "Prairie Leadership Network",
+    "ask": "30 minutes"
+  },
+  "forbidden": {
+    "format": [
+      "keynote"
+    ]
+  }
+}

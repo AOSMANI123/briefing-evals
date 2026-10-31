@@ -1,5 +1,6 @@
 {
   "id": "03-last-years-date",
+  "category": "stale_info",
   "trap": "Only last year's date is given; this year's date is not set.",
   "source": "Subject: Returning to the Riverbend Leadership Dinner?\n\nHi there,\n\nLast year your CEO spoke at the Riverbend Leadership Dinner on November 6, 2025, and it was a highlight for our members. We're planning this year's dinner now and haven't locked a date yet, but it will again be at the Riverbend Club in Columbus, OH, for roughly 150 guests. Would your CEO consider a short after-dinner conversation with our board chair, Helen Park?\n\nThank you,\nTom Castellano\nExecutive Director, Riverbend Business Council",
   "expected": {
@@ -17,6 +18,11 @@
     "ask": [
       "after-dinner conversation",
       "conversation"
+    ]
+  },
+  "forbidden": {
+    "date": [
+      "November 6, 2025"
     ]
   }
 }

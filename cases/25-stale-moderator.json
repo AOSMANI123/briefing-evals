@@ -1,0 +1,22 @@
+{
+  "id": "25-stale-moderator",
+  "category": "stale_info",
+  "trap": "Last year's moderator is named; this year's is not.",
+  "source": "Subject: Civic Futures Lecture - November 10\n\nDear team,\n\nThe Civic Futures Institute invites your CEO to this year's Civic Futures Lecture, a fireside chat on November 10, 2027 in Philadelphia, PA, for an audience of 500. Last year's conversation was moderated by Jill Ramos, and we're now choosing this year's moderator.\n\nSincerely,\nAndre Wells\nPresident, Civic Futures Institute",
+  "expected": {
+    "event_name": "Civic Futures Lecture",
+    "date": "November 10, 2027",
+    "location": "Philadelphia",
+    "format": "fireside chat",
+    "moderator": null,
+    "audience_size": "500",
+    "requestor_name": "Andre Wells",
+    "requestor_org": "Civic Futures Institute",
+    "ask": "fireside chat"
+  },
+  "forbidden": {
+    "moderator": [
+      "Jill Ramos"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "40-keynote-introducer",
+  "category": "role_confusion",
+  "trap": "An introducer for a keynote is not a moderator.",
+  "source": "Subject: Keynote - Capitol Valley Founders Forum\n\nHi,\n\nCapitol Valley Founders invites your CEO to give the keynote at the Capitol Valley Founders Forum on August 3, 2027 in Sacramento, CA, for 400 founders. Your CEO would be introduced by our founder, Sam Arden.\n\nThanks,\nLena Ortiz\nHead of Programming, Capitol Valley Founders",
+  "expected": {
+    "event_name": "Capitol Valley Founders Forum",
+    "date": "August 3, 2027",
+    "location": "Sacramento",
+    "format": "keynote",
+    "moderator": null,
+    "audience_size": "400",
+    "requestor_name": "Lena Ortiz",
+    "requestor_org": "Capitol Valley Founders",
+    "ask": "keynote"
+  },
+  "forbidden": {
+    "moderator": [
+      "Sam Arden"
+    ]
+  }
+}

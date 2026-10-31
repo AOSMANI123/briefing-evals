@@ -1,0 +1,17 @@
+{
+  "id": "23-vague-registrations",
+  "category": "vague_quantity",
+  "trap": "'Registrations are strong' is not an audience size.",
+  "source": "Subject: Q&A at the Summit on Rural Connectivity\n\nHi,\n\nBig Sky Connect Initiative is hosting the Summit on Rural Connectivity on October 5, 2027 in Billings, MT. Registrations are strong so far. We'd like your CEO for a Q&A session led by Nora Whitehorse.\n\nRegards,\nPaul Brennan\nOutreach Manager, Big Sky Connect Initiative",
+  "expected": {
+    "event_name": "Summit on Rural Connectivity",
+    "date": "October 5, 2027",
+    "location": "Billings",
+    "format": "Q&A",
+    "moderator": "Nora Whitehorse",
+    "audience_size": null,
+    "requestor_name": "Paul Brennan",
+    "requestor_org": "Big Sky Connect Initiative",
+    "ask": "Q&A"
+  }
+}

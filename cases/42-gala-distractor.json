@@ -1,0 +1,22 @@
+{
+  "id": "42-gala-distractor",
+  "category": "distractor_event",
+  "trap": "A future gala is mentioned. The ask is the policy forum.",
+  "source": "Subject: Fall Policy Forum - October 12\n\nHi,\n\nWe'd love to have your CEO at our spring gala someday, but this request is for our Fall Policy Forum on October 12, 2027 in Washington, DC. Henry Vo will moderate a panel on infrastructure funding for 300 attendees.\n\nBest,\nAbby Morrow\nDirector of Events, Center for Public Infrastructure",
+  "expected": {
+    "event_name": "Fall Policy Forum",
+    "date": "October 12, 2027",
+    "location": "Washington",
+    "format": "panel",
+    "moderator": "Henry Vo",
+    "audience_size": "300",
+    "requestor_name": "Abby Morrow",
+    "requestor_org": "Center for Public Infrastructure",
+    "ask": "panel"
+  },
+  "forbidden": {
+    "event_name": [
+      "spring gala"
+    ]
+  }
+}

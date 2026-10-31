@@ -1,0 +1,22 @@
+{
+  "id": "46-multiday-event",
+  "category": "precision",
+  "trap": "The conference runs three days. The ask is for one specific day.",
+  "source": "Subject: Panel - Heartland Health Equity Conference\n\nHello,\n\nThe Heartland Health Equity Conference runs June 14-16, 2027 in St. Louis, MO, and we'd like your CEO on our June 15 panel on rural access. Dr. Imani Brooks will moderate, and about 1,000 clinicians and policymakers will attend.\n\nBest,\nRachel Stone\nConference Manager, Heartland Health Equity Alliance",
+  "expected": {
+    "event_name": "Heartland Health Equity Conference",
+    "date": [
+      "June 15"
+    ],
+    "location": "St. Louis",
+    "format": "panel",
+    "moderator": "Imani Brooks",
+    "audience_size": [
+      "1,000",
+      "1000"
+    ],
+    "requestor_name": "Rachel Stone",
+    "requestor_org": "Heartland Health Equity Alliance",
+    "ask": "panel"
+  }
+}

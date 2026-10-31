@@ -1,5 +1,7 @@
 # Briefing Evals
 
+> v1 write-up (12 cases, October 2026). v2 changed the answer key and the gate; see the [README](../README.md) and [ADR-002](decisions/ADR-002-v2-scoring-and-gate.md).
+
 **Golden-set regression testing for LLM-generated briefings.**
 
 Independent work. Not affiliated with any employer.

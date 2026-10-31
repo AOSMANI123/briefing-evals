@@ -1,0 +1,22 @@
+{
+  "id": "26-stale-location",
+  "category": "stale_info",
+  "trap": "Past host city is named; this year's location isn't set.",
+  "source": "Subject: Panel at the Lone Star Health Data Summit\n\nHello,\n\nThe Lone Star Health Data Network is hosting its Lone Star Health Data Summit on April 27, 2027. In past years we've held it in Austin, but the 2027 location isn't final yet. Rosa Mendez will moderate a panel on data sharing for about 400 attendees, and we'd like your CEO on it.\n\nBest,\nDr. Kevin Tran\nChair, Lone Star Health Data Network",
+  "expected": {
+    "event_name": "Lone Star Health Data Summit",
+    "date": "April 27, 2027",
+    "location": null,
+    "format": "panel",
+    "moderator": "Rosa Mendez",
+    "audience_size": "400",
+    "requestor_name": "Kevin Tran",
+    "requestor_org": "Lone Star Health Data Network",
+    "ask": "panel"
+  },
+  "forbidden": {
+    "location": [
+      "Austin"
+    ]
+  }
+}

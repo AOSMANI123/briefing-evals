@@ -1,0 +1,17 @@
+{
+  "id": "31-pending-audience",
+  "category": "pending_info",
+  "trap": "Attendance is explicitly TBD.",
+  "source": "Subject: Panel - Coastal Resilience Symposium\n\nHello,\n\nThe Lowcountry Resilience Lab is hosting the Coastal Resilience Symposium on September 14, 2027 in Charleston, SC. Dr. Alan Pierce will moderate a panel on insuring coastal communities, and we'd like your CEO to join it. Attendance is TBD; registration opens next month.\n\nRegards,\nMia Duval\nProgram Manager, Lowcountry Resilience Lab",
+  "expected": {
+    "event_name": "Coastal Resilience Symposium",
+    "date": "September 14, 2027",
+    "location": "Charleston",
+    "format": "panel",
+    "moderator": "Alan Pierce",
+    "audience_size": null,
+    "requestor_name": "Mia Duval",
+    "requestor_org": "Lowcountry Resilience Lab",
+    "ask": "panel"
+  }
+}

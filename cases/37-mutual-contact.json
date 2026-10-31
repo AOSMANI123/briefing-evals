@@ -1,0 +1,22 @@
+{
+  "id": "37-mutual-contact",
+  "category": "attribution",
+  "trap": "A mutual contact suggested the outreach. That person is not the requestor.",
+  "source": "Subject: Fireside chat - Nordic-American Trade Dialogue\n\nHello,\n\nRaj Mehta suggested I reach out. The Nordic Trade Council is hosting the Nordic-American Trade Dialogue on September 28, 2027 in St. Paul, MN, for 180 business leaders. We'd love your CEO for a fireside chat moderated by Erik Dahl.\n\nBest regards,\nClara Jensen\nProgram Director, Nordic Trade Council",
+  "expected": {
+    "event_name": "Nordic-American Trade Dialogue",
+    "date": "September 28, 2027",
+    "location": "St. Paul",
+    "format": "fireside chat",
+    "moderator": "Erik Dahl",
+    "audience_size": "180",
+    "requestor_name": "Clara Jensen",
+    "requestor_org": "Nordic Trade Council",
+    "ask": "fireside chat"
+  },
+  "forbidden": {
+    "requestor_name": [
+      "Raj Mehta"
+    ]
+  }
+}

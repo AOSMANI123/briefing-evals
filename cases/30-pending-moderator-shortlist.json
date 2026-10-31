@@ -1,0 +1,23 @@
+{
+  "id": "30-pending-moderator-shortlist",
+  "category": "pending_info",
+  "trap": "Two possible moderators are named. Neither is confirmed.",
+  "source": "Subject: Fireside chat - Future of Work Forum\n\nHi,\n\nThe Peachtree Workforce Institute is hosting the Future of Work Forum on July 21, 2027 in Atlanta, GA, for 650 attendees. We'd like your CEO for a fireside chat. For the moderator, we're choosing between two journalists, Rob Kim and Sara Patel.\n\nBest,\nNina Brooks\nEvents Director, Peachtree Workforce Institute",
+  "expected": {
+    "event_name": "Future of Work Forum",
+    "date": "July 21, 2027",
+    "location": "Atlanta",
+    "format": "fireside chat",
+    "moderator": null,
+    "audience_size": "650",
+    "requestor_name": "Nina Brooks",
+    "requestor_org": "Peachtree Workforce Institute",
+    "ask": "fireside chat"
+  },
+  "forbidden": {
+    "moderator": [
+      "Rob Kim",
+      "Sara Patel"
+    ]
+  }
+}

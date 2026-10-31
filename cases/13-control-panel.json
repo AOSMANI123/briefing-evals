@@ -1,0 +1,20 @@
+{
+  "id": "13-control-panel",
+  "category": "control",
+  "trap": "Control case. Everything is stated.",
+  "source": "Subject: Panel invitation - Great Lakes Water Summit\n\nHello,\n\nI'm Teresa Alvarez, Partnerships Manager at the Great Lakes Water Council. We'd like to invite your CEO to join a panel on water infrastructure at the Great Lakes Water Summit on June 8, 2027 in Milwaukee, WI. The panel will be moderated by journalist Owen Brack, and we expect 350 attendees. We're asking for a 45-minute panel appearance.\n\nBest,\nTeresa Alvarez\nPartnerships Manager, Great Lakes Water Council",
+  "expected": {
+    "event_name": "Great Lakes Water Summit",
+    "date": "June 8, 2027",
+    "location": "Milwaukee",
+    "format": "panel",
+    "moderator": "Owen Brack",
+    "audience_size": "350",
+    "requestor_name": "Teresa Alvarez",
+    "requestor_org": "Great Lakes Water Council",
+    "ask": [
+      "45-minute panel",
+      "panel"
+    ]
+  }
+}

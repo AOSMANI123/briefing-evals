@@ -1,0 +1,20 @@
+{
+  "id": "19-missing-org",
+  "category": "missing_field",
+  "trap": "Signer gives no organization. The event name is not an organization.",
+  "source": "Subject: Women in Leadership Breakfast\n\nHi,\n\nI'm organizing the Northern Lights Women in Leadership Breakfast in Minneapolis, MN on January 19, 2027. About 150 guests are expected. Would your CEO be willing to give 15 minutes of remarks?\n\nThank you,\nMaya Lindqvist",
+  "expected": {
+    "event_name": "Northern Lights Women in Leadership Breakfast",
+    "date": "January 19, 2027",
+    "location": "Minneapolis",
+    "format": "remarks",
+    "moderator": null,
+    "audience_size": "150",
+    "requestor_name": "Maya Lindqvist",
+    "requestor_org": null,
+    "ask": [
+      "15 minutes",
+      "remarks"
+    ]
+  }
+}

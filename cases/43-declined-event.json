@@ -1,0 +1,25 @@
+{
+  "id": "43-declined-event",
+  "category": "distractor_event",
+  "trap": "A different, already-declined event and its date are mentioned.",
+  "source": "Subject: Spring Builders Showcase - April 21\n\nHello,\n\nThis is separate from our investor day on March 3, which your team already declined. The event we're asking about is the Spring Builders Showcase on April 21, 2027 in Raleigh, NC. Kim Daley would moderate a fireside chat with your CEO for about 220 founders.\n\nThanks,\nJon Ferrante\nCommunity Lead, Triangle Builders Network",
+  "expected": {
+    "event_name": "Spring Builders Showcase",
+    "date": "April 21, 2027",
+    "location": "Raleigh",
+    "format": "fireside chat",
+    "moderator": "Kim Daley",
+    "audience_size": "220",
+    "requestor_name": "Jon Ferrante",
+    "requestor_org": "Triangle Builders Network",
+    "ask": "fireside chat"
+  },
+  "forbidden": {
+    "date": [
+      "March 3"
+    ],
+    "event_name": [
+      "investor day"
+    ]
+  }
+}

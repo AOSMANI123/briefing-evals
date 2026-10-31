@@ -1,0 +1,29 @@
+{
+  "id": "33-forwarded-twice",
+  "category": "attribution",
+  "trap": "Forwarded twice. The requestor is the original sender, not either forwarder.",
+  "source": "Subject: Fwd: Fwd: Remarks at Kente Arts Benefit\n\nPassing this along, see below. - Jordan (internal)\n\n---------- Forwarded message ----------\nFrom: Beth Moreau, Kestrel Agency\nHi Jordan, one of our clients asked us to send this your way. - Beth\n\n---------- Forwarded message ----------\nFrom: Samuel Osei, Chief of Staff, Kente Arts Collective\nSubject: Remarks at Kente Arts Benefit\n\nWe would be honored if your CEO could offer 5 minutes of remarks at the Kente Arts Benefit on December 2, 2027 in Washington, DC, for about 200 supporters.\n\nSamuel Osei",
+  "expected": {
+    "event_name": "Kente Arts Benefit",
+    "date": "December 2, 2027",
+    "location": "Washington",
+    "format": "remarks",
+    "moderator": null,
+    "audience_size": "200",
+    "requestor_name": "Samuel Osei",
+    "requestor_org": "Kente Arts Collective",
+    "ask": [
+      "5 minutes",
+      "remarks"
+    ]
+  },
+  "forbidden": {
+    "requestor_name": [
+      "Jordan",
+      "Beth Moreau"
+    ],
+    "requestor_org": [
+      "Kestrel Agency"
+    ]
+  }
+}

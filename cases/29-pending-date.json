@@ -1,0 +1,17 @@
+{
+  "id": "29-pending-date",
+  "category": "pending_info",
+  "trap": "Date is explicitly to be confirmed.",
+  "source": "Subject: Keynote - Cascadia Climate Tech Showcase\n\nHello,\n\nCascadia Climate Ventures is hosting the Cascadia Climate Tech Showcase in Tacoma, WA for about 900 founders and investors. The date is to be confirmed once our venue contract is signed. We'd like your CEO to give the keynote.\n\nThanks,\nEllen Burke\nManaging Director, Cascadia Climate Ventures",
+  "expected": {
+    "event_name": "Cascadia Climate Tech Showcase",
+    "date": null,
+    "location": "Tacoma",
+    "format": "keynote",
+    "moderator": null,
+    "audience_size": "900",
+    "requestor_name": "Ellen Burke",
+    "requestor_org": "Cascadia Climate Ventures",
+    "ask": "keynote"
+  }
+}

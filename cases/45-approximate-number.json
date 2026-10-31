@@ -1,0 +1,20 @@
+{
+  "id": "45-approximate-number",
+  "category": "precision",
+  "trap": "'Roughly 1,800' should be copied, not rounded.",
+  "source": "Subject: Keynote - Gulf Coast Logistics Expo\n\nHello,\n\nThe Gulf Coast Logistics Association invites your CEO to keynote the Gulf Coast Logistics Expo on January 26, 2027 in Houston, TX. We expect roughly 1,800 attendees.\n\nRegards,\nDarnell Price\nExpo Director, Gulf Coast Logistics Association",
+  "expected": {
+    "event_name": "Gulf Coast Logistics Expo",
+    "date": "January 26, 2027",
+    "location": "Houston",
+    "format": "keynote",
+    "moderator": null,
+    "audience_size": [
+      "1,800",
+      "1800"
+    ],
+    "requestor_name": "Darnell Price",
+    "requestor_org": "Gulf Coast Logistics Association",
+    "ask": "keynote"
+  }
+}

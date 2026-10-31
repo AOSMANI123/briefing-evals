@@ -1,0 +1,23 @@
+{
+  "id": "15-control-roundtable",
+  "category": "control",
+  "trap": "Control case. Everything is stated, small audience.",
+  "source": "Subject: Midwest Manufacturing Roundtable - April 14\n\nHi,\n\nThe Midwest Manufacturing Alliance is hosting the Midwest Manufacturing Roundtable on April 14, 2027 in Detroit, MI. It's a closed roundtable discussion with 40 plant leaders, moderated by our research director, Rina Cho. We're asking your CEO to take part for 90 minutes.\n\nThanks,\nJules Okafor\nPrograms Lead, Midwest Manufacturing Alliance",
+  "expected": {
+    "event_name": "Midwest Manufacturing Roundtable",
+    "date": "April 14, 2027",
+    "location": "Detroit",
+    "format": [
+      "roundtable discussion",
+      "roundtable"
+    ],
+    "moderator": "Rina Cho",
+    "audience_size": "40",
+    "requestor_name": "Jules Okafor",
+    "requestor_org": "Midwest Manufacturing Alliance",
+    "ask": [
+      "90 minutes",
+      "roundtable"
+    ]
+  }
+}

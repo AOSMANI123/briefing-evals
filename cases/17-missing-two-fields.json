@@ -1,0 +1,17 @@
+{
+  "id": "17-missing-two-fields",
+  "category": "missing_field",
+  "trap": "No moderator and no audience size. Two gaps in one request.",
+  "source": "Subject: Fireside chat at Harbor City Founders Night\n\nHi there,\n\nHarbor City Founders Network is holding Harbor City Founders Night on November 4, 2027 in Baltimore, MD. Would your CEO join us for a fireside chat about building companies outside the big tech hubs?\n\nCheers,\nKen Ishida\nOrganizer, Harbor City Founders Network",
+  "expected": {
+    "event_name": "Harbor City Founders Night",
+    "date": "November 4, 2027",
+    "location": "Baltimore",
+    "format": "fireside chat",
+    "moderator": null,
+    "audience_size": null,
+    "requestor_name": "Ken Ishida",
+    "requestor_org": "Harbor City Founders Network",
+    "ask": "fireside chat"
+  }
+}

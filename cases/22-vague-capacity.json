@@ -1,0 +1,23 @@
+{
+  "id": "22-vague-capacity",
+  "category": "vague_quantity",
+  "trap": "Venue capacity is given, not expected attendance.",
+  "source": "Subject: Panel - Bayou Energy Forum\n\nHello,\n\nThe Gulf Energy Roundtable invites your CEO to a panel at the Bayou Energy Forum on March 2, 2027 in New Orleans, LA. The hall seats 2,000, and Gwen Arceneaux will moderate.\n\nBest,\nLuis Ortega\nDirector of Programs, Gulf Energy Roundtable",
+  "expected": {
+    "event_name": "Bayou Energy Forum",
+    "date": "March 2, 2027",
+    "location": "New Orleans",
+    "format": "panel",
+    "moderator": "Gwen Arceneaux",
+    "audience_size": null,
+    "requestor_name": "Luis Ortega",
+    "requestor_org": "Gulf Energy Roundtable",
+    "ask": "panel"
+  },
+  "forbidden": {
+    "audience_size": [
+      "2,000",
+      "2000"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "20-vague-hundreds",
+  "category": "vague_quantity",
+  "trap": "'Hundreds of developers' is not a number.",
+  "source": "Subject: Fireside at Pixel Coast DevDays\n\nHey team,\n\nPixel Coast DevDays is back on August 12, 2027 in San Diego, CA, and it always draws hundreds of developers. We'd love to have your CEO for a fireside chat moderated by Tomas Rey from our board.\n\nThanks,\nIvy Chen\nProgram Chair, Pixel Coast Developers Guild",
+  "expected": {
+    "event_name": "Pixel Coast DevDays",
+    "date": "August 12, 2027",
+    "location": "San Diego",
+    "format": "fireside chat",
+    "moderator": "Tomas Rey",
+    "audience_size": null,
+    "requestor_name": "Ivy Chen",
+    "requestor_org": "Pixel Coast Developers Guild",
+    "ask": "fireside chat"
+  }
+}

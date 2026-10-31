@@ -1,0 +1,26 @@
+{
+  "id": "14-control-interview",
+  "category": "control",
+  "trap": "Control case. Everything is stated, including a comma in the audience number.",
+  "source": "Subject: Onstage interview - Riverbend Book Festival\n\nDear team,\n\nThe Riverbend Literary Society would be delighted to host your CEO for an onstage interview at the Riverbend Book Festival on October 16, 2027 in Asheville, NC. Author Celia Ward will conduct the interview in front of 1,200 readers.\n\nWith thanks,\nHank Delgado\nFestival Director, Riverbend Literary Society",
+  "expected": {
+    "event_name": "Riverbend Book Festival",
+    "date": "October 16, 2027",
+    "location": "Asheville",
+    "format": [
+      "onstage interview",
+      "interview"
+    ],
+    "moderator": "Celia Ward",
+    "audience_size": [
+      "1,200",
+      "1200"
+    ],
+    "requestor_name": "Hank Delgado",
+    "requestor_org": "Riverbend Literary Society",
+    "ask": [
+      "onstage interview",
+      "interview"
+    ]
+  }
+}

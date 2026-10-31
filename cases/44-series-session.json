@@ -1,0 +1,22 @@
+{
+  "id": "44-series-session",
+  "category": "distractor_event",
+  "trap": "A monthly series. The ask is one specific session; another month is mentioned.",
+  "source": "Subject: Leaders in Practice - November session\n\nDear team,\n\nThe Allegheny School of Business runs a monthly speaker series, Leaders in Practice. The October session is already booked; we'd like your CEO for the November 18, 2027 session in Pittsburgh, PA. Dean Patricia Holm moderates each fireside chat, and about 100 MBA students attend.\n\nBest,\nOmar Siddiqui\nSpeaker Series Manager, Allegheny School of Business",
+  "expected": {
+    "event_name": "Leaders in Practice",
+    "date": "November 18, 2027",
+    "location": "Pittsburgh",
+    "format": "fireside chat",
+    "moderator": "Patricia Holm",
+    "audience_size": "100",
+    "requestor_name": "Omar Siddiqui",
+    "requestor_org": "Allegheny School of Business",
+    "ask": "fireside chat"
+  },
+  "forbidden": {
+    "date": [
+      "October"
+    ]
+  }
+}

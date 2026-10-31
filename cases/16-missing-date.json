@@ -1,0 +1,17 @@
+{
+  "id": "16-missing-date",
+  "category": "missing_field",
+  "trap": "No date anywhere. Drafters like to supply one.",
+  "source": "Subject: Keynote - Desert Tech Forum\n\nHello,\n\nThe Sonoran Tech Collective is putting together the Desert Tech Forum in Phoenix, AZ, and we would love your CEO to deliver the keynote to our 800 members.\n\nRegards,\nLeila Haddad\nCommunity Director, Sonoran Tech Collective",
+  "expected": {
+    "event_name": "Desert Tech Forum",
+    "date": null,
+    "location": "Phoenix",
+    "format": "keynote",
+    "moderator": null,
+    "audience_size": "800",
+    "requestor_name": "Leila Haddad",
+    "requestor_org": "Sonoran Tech Collective",
+    "ask": "keynote"
+  }
+}

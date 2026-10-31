@@ -1,0 +1,136 @@
+case_id,field,value
+01-no-moderator,event_name,Lakeshore Health Innovation Forum
+01-no-moderator,date,"March 11, 2027"
+01-no-moderator,location,Chicago
+01-no-moderator,format,fireside chat
+01-no-moderator,moderator,UNKNOWN
+01-no-moderator,audience_size,600
+01-no-moderator,requestor_name,Dana Whitfield
+01-no-moderator,requestor_org,Lakeshore Health Institute
+01-no-moderator,ask,fireside chat
+02-vague-crowd,event_name,Cascade Builders Summit
+02-vague-crowd,date,"May 4, 2027"
+02-vague-crowd,location,Portland
+02-vague-crowd,format,keynote
+02-vague-crowd,moderator,UNKNOWN
+02-vague-crowd,audience_size,UNKNOWN
+02-vague-crowd,requestor_name,Marcus Oyelaran
+02-vague-crowd,requestor_org,Cascade Builders Alliance
+02-vague-crowd,ask,opening keynote
+03-last-years-date,event_name,Riverbend Leadership Dinner
+03-last-years-date,date,UNKNOWN
+03-last-years-date,location,Columbus
+03-last-years-date,format,conversation
+03-last-years-date,moderator,Helen Park
+03-last-years-date,audience_size,150
+03-last-years-date,requestor_name,Tom Castellano
+03-last-years-date,requestor_org,Riverbend Business Council
+03-last-years-date,ask,after-dinner conversation
+04-forwarded,event_name,Future of Work Week
+04-forwarded,date,"June 17, 2027"
+04-forwarded,location,Washington
+04-forwarded,format,panel
+04-forwarded,moderator,Evan Brooks
+04-forwarded,audience_size,"1,200"
+04-forwarded,requestor_name,Aisha Rahman
+04-forwarded,requestor_org,Meridian Labor Forum
+04-forwarded,ask,panel
+06-two-events,event_name,Harborview Scholars Ceremony
+06-two-events,date,"April 20, 2027"
+06-two-events,location,Seattle
+06-two-events,format,video message
+06-two-events,moderator,UNKNOWN
+06-two-events,audience_size,300
+06-two-events,requestor_name,Grace Liu
+06-two-events,requestor_org,Harborview Community Foundation
+06-two-events,ask,video message
+07-range,event_name,Midwest Founders Podcast
+07-range,date,"August 9, 2027"
+07-range,location,Detroit
+07-range,format,interview
+07-range,moderator,Rachel Adeyemi
+07-range,audience_size,250-300
+07-range,requestor_name,Jon Park
+07-range,requestor_org,Midwest Founders Media
+07-range,ask,interview
+08-format-unclear,event_name,Northgate Civic Week
+08-format-unclear,date,"October 12-16, 2027"
+08-format-unclear,location,Minneapolis
+08-format-unclear,format,UNKNOWN
+08-format-unclear,moderator,UNKNOWN
+08-format-unclear,audience_size,UNKNOWN
+08-format-unclear,requestor_name,Ben Alvarez
+08-format-unclear,requestor_org,City of Northgate Partners
+08-format-unclear,ask,part of it
+10-tbd-moderator,event_name,Summit for Rural Broadband
+10-tbd-moderator,date,"July 7, 2027"
+10-tbd-moderator,location,Des Moines
+10-tbd-moderator,format,fireside chat
+10-tbd-moderator,moderator,UNKNOWN
+10-tbd-moderator,audience_size,800
+10-tbd-moderator,requestor_name,Hannah Okafor
+10-tbd-moderator,requestor_org,Rural Connect Coalition
+10-tbd-moderator,ask,fireside chat
+11-no-signature,event_name,CEO roundtable
+11-no-signature,date,"February 24, 2027"
+11-no-signature,location,San Francisco
+11-no-signature,format,roundtable
+11-no-signature,moderator,UNKNOWN
+11-no-signature,audience_size,25
+11-no-signature,requestor_name,UNKNOWN
+11-no-signature,requestor_org,Pacific Retail Association
+11-no-signature,ask,opening remarks
+13-control-panel,event_name,Great Lakes Water Summit
+13-control-panel,date,"June 8, 2027"
+13-control-panel,location,Milwaukee
+13-control-panel,format,panel
+13-control-panel,moderator,Owen Brack
+13-control-panel,audience_size,350
+13-control-panel,requestor_name,Teresa Alvarez
+13-control-panel,requestor_org,Great Lakes Water Council
+13-control-panel,ask,45-minute panel
+14-control-interview,event_name,Riverbend Book Festival
+14-control-interview,date,"October 16, 2027"
+14-control-interview,location,Asheville
+14-control-interview,format,onstage interview
+14-control-interview,moderator,Celia Ward
+14-control-interview,audience_size,"1,200"
+14-control-interview,requestor_name,Hank Delgado
+14-control-interview,requestor_org,Riverbend Literary Society
+14-control-interview,ask,onstage interview
+20-vague-hundreds,event_name,Pixel Coast DevDays
+20-vague-hundreds,date,"August 12, 2027"
+20-vague-hundreds,location,San Diego
+20-vague-hundreds,format,fireside chat
+20-vague-hundreds,moderator,Tomas Rey
+20-vague-hundreds,audience_size,UNKNOWN
+20-vague-hundreds,requestor_name,Ivy Chen
+20-vague-hundreds,requestor_org,Pixel Coast Developers Guild
+20-vague-hundreds,ask,fireside chat
+42-gala-distractor,event_name,Fall Policy Forum
+42-gala-distractor,date,"October 12, 2027"
+42-gala-distractor,location,Washington
+42-gala-distractor,format,panel
+42-gala-distractor,moderator,Henry Vo
+42-gala-distractor,audience_size,300
+42-gala-distractor,requestor_name,Abby Morrow
+42-gala-distractor,requestor_org,Center for Public Infrastructure
+42-gala-distractor,ask,panel
+48-date-moved,event_name,Green Cities Expo
+48-date-moved,date,"May 13, 2027"
+48-date-moved,location,Madison
+48-date-moved,format,keynote
+48-date-moved,moderator,UNKNOWN
+48-date-moved,audience_size,600
+48-date-moved,requestor_name,Hilary Fisk
+48-date-moved,requestor_org,Green Cities Network
+48-date-moved,ask,keynote
+49-now-virtual,event_name,New England Data Forum
+49-now-virtual,date,"October 7, 2027"
+49-now-virtual,location,virtual
+49-now-virtual,format,panel
+49-now-virtual,moderator,Kay Morrison
+49-now-virtual,audience_size,UNKNOWN
+49-now-virtual,requestor_name,Ben Adler
+49-now-virtual,requestor_org,New England Data Society
+49-now-virtual,ask,panel

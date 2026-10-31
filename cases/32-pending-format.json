@@ -1,0 +1,20 @@
+{
+  "id": "32-pending-format",
+  "category": "pending_info",
+  "trap": "Format is still being decided between two options.",
+  "source": "Subject: Mountain West Startup Week\n\nHi,\n\nFront Range Founders is hosting Mountain West Startup Week on April 6, 2027 in Denver, CO, with about 1,500 attendees. We're still deciding on the format, keynote or fireside chat, and would like 25 minutes of your CEO's time.\n\nThanks,\nChris Navarro\nFounder, Front Range Founders",
+  "expected": {
+    "event_name": "Mountain West Startup Week",
+    "date": "April 6, 2027",
+    "location": "Denver",
+    "format": null,
+    "moderator": null,
+    "audience_size": [
+      "1,500",
+      "1500"
+    ],
+    "requestor_name": "Chris Navarro",
+    "requestor_org": "Front Range Founders",
+    "ask": "25 minutes"
+  }
+}

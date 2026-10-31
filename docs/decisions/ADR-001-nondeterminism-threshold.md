@@ -1,6 +1,6 @@
 # ADR-001: Nondeterminism threshold strategy
 
-**Status:** Accepted
+**Status:** Accepted. Pass-gate logic superseded by [ADR-002](ADR-002-v2-scoring-and-gate.md) on October 31, 2026.
 **Date:** October 1, 2026
 **Author:** Atif Osmani
 

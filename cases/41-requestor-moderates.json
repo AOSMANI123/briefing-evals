@@ -1,0 +1,20 @@
+{
+  "id": "41-requestor-moderates",
+  "category": "role_confusion",
+  "trap": "The requestor will moderate. The same name belongs in both fields.",
+  "source": "Subject: Conversation at the Westport Readers Circle\n\nHello,\n\nThe Westport Readers Circle would love to host your CEO for a 45-minute conversation at our Prairie Tech Book Talk on February 9, 2027 in Kansas City, MO, for about 150 readers. I'll be moderating the conversation myself.\n\nWarmly,\nGrace Liang\nFounder, Westport Readers Circle",
+  "expected": {
+    "event_name": "Prairie Tech Book Talk",
+    "date": "February 9, 2027",
+    "location": "Kansas City",
+    "format": "conversation",
+    "moderator": "Grace Liang",
+    "audience_size": "150",
+    "requestor_name": "Grace Liang",
+    "requestor_org": "Westport Readers Circle",
+    "ask": [
+      "45-minute conversation",
+      "conversation"
+    ]
+  }
+}

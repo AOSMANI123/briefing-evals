@@ -1,6 +1,7 @@
 {
-  "id": "09-complete",
-  "trap": "Control case. Everything is stated.",
+  "id": "09-introducer",
+  "category": "role_confusion",
+  "trap": "The college president introduces the speaker. An introducer is not a moderator. (Was 09-complete in v1.)",
   "source": "Subject: Commencement address - Lakeview College\n\nDear team,\n\nLakeview College invites your CEO to deliver the commencement address on May 15, 2027 at Lakeview Stadium in Madison, WI. About 5,000 graduates and guests will attend. President Maria Gonzalez will introduce the speaker.\n\nSincerely,\nOwen Fitzgerald\nChief of Staff, Lakeview College",
   "expected": {
     "event_name": [
@@ -13,7 +14,7 @@
       "commencement address",
       "address"
     ],
-    "moderator": "Maria Gonzalez",
+    "moderator": null,
     "audience_size": [
       "5,000",
       "5000"
@@ -22,6 +23,11 @@
     "requestor_org": "Lakeview College",
     "ask": [
       "commencement address"
+    ]
+  },
+  "forbidden": {
+    "moderator": [
+      "Maria Gonzalez"
     ]
   }
 }

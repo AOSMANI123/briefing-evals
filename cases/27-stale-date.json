@@ -1,0 +1,25 @@
+{
+  "id": "27-stale-date",
+  "category": "stale_info",
+  "trap": "Last year's gala date is given; this year's is not set.",
+  "source": "Subject: Remarks at the Bridges Gala\n\nHi,\n\nOur 10th annual Bridges Gala was on October 3, 2026. We're now planning the 11th annual Bridges Gala in Hartford, CT, date to be set, for about 450 guests. Would your CEO offer 10 minutes of remarks?\n\nWarmly,\nOlivia Grant\nDevelopment Director, Bridges Youth Foundation",
+  "expected": {
+    "event_name": "Bridges Gala",
+    "date": null,
+    "location": "Hartford",
+    "format": "remarks",
+    "moderator": null,
+    "audience_size": "450",
+    "requestor_name": "Olivia Grant",
+    "requestor_org": "Bridges Youth Foundation",
+    "ask": [
+      "10 minutes",
+      "remarks"
+    ]
+  },
+  "forbidden": {
+    "date": [
+      "October 3, 2026"
+    ]
+  }
+}

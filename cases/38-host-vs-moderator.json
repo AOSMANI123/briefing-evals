@@ -1,0 +1,31 @@
+{
+  "id": "38-host-vs-moderator",
+  "category": "role_confusion",
+  "trap": "Someone opens the evening; someone else leads the conversation. Only the second is the moderator.",
+  "source": "Subject: An Evening of Ideas - March 18\n\nHi,\n\nThe Music City Ideas Society invites your CEO to An Evening of Ideas on March 18, 2027 in Nashville, TN, for 250 members. Our board chair, Linda Moss, will open the evening and welcome guests. The fireside conversation itself will be led by podcast host Darius Cole.\n\nThank you,\nBecca Hale\nExecutive Director, Music City Ideas Society",
+  "expected": {
+    "event_name": [
+      "Evening of Ideas"
+    ],
+    "date": "March 18, 2027",
+    "location": "Nashville",
+    "format": [
+      "fireside conversation",
+      "fireside",
+      "conversation"
+    ],
+    "moderator": "Darius Cole",
+    "audience_size": "250",
+    "requestor_name": "Becca Hale",
+    "requestor_org": "Music City Ideas Society",
+    "ask": [
+      "fireside conversation",
+      "conversation"
+    ]
+  },
+  "forbidden": {
+    "moderator": [
+      "Linda Moss"
+    ]
+  }
+}

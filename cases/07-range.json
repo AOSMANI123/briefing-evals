@@ -1,5 +1,6 @@
 {
   "id": "07-range",
+  "category": "precision",
   "trap": "Audience given as a range. It should not be averaged or rounded.",
   "source": "Subject: Interview request - Midwest Founders Podcast Live\n\nHello,\n\nMidwest Founders Podcast is recording a live episode at the Detroit Innovation Hub in Detroit, MI on August 9, 2027, with 250-300 people in the room. Host Rachel Adeyemi would interview your CEO for 45 minutes.\n\nBest,\nJon Park\nProducer, Midwest Founders Media",
   "expected": {
@@ -14,7 +15,7 @@
     "moderator": "Rachel Adeyemi",
     "audience_size": [
       "250-300",
-      "250 300"
+      "250 to 300"
     ],
     "requestor_name": "Jon Park",
     "requestor_org": "Midwest Founders Media",

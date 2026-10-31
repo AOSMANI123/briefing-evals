@@ -1,0 +1,20 @@
+{
+  "id": "47-two-durations",
+  "category": "precision",
+  "trap": "Two durations are given. They should not be added together. (A summed '30 minutes' is caught by the invented-number check, not the ask field.)",
+  "source": "Subject: Investor Breakfast keynote\n\nHi,\n\nEvergreen Capital Partners is hosting the Evergreen Investor Breakfast on March 9, 2027 in Portland, ME, for an intimate group of 75 investors. We'd like your CEO for a 20-minute keynote followed by a 10-minute Q&A.\n\nBest,\nSean McAllister\nPartner, Evergreen Capital Partners",
+  "expected": {
+    "event_name": "Evergreen Investor Breakfast",
+    "date": "March 9, 2027",
+    "location": "Portland",
+    "format": "keynote",
+    "moderator": null,
+    "audience_size": "75",
+    "requestor_name": "Sean McAllister",
+    "requestor_org": "Evergreen Capital Partners",
+    "ask": [
+      "20-minute keynote",
+      "keynote"
+    ]
+  }
+}

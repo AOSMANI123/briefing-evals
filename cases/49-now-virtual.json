@@ -1,0 +1,25 @@
+{
+  "id": "49-now-virtual",
+  "category": "correction",
+  "trap": "The event moved from a city to fully virtual.",
+  "source": "Subject: New England Data Forum panel (update)\n\nHello,\n\nThe New England Data Society invites your CEO to a panel at the New England Data Forum on October 7, 2027 in Providence, RI, moderated by Kay Morrison.\n\nUpdate: because of venue renovations, the forum will now be fully virtual.\n\nBest,\nBen Adler\nProgram Chair, New England Data Society",
+  "expected": {
+    "event_name": "New England Data Forum",
+    "date": "October 7, 2027",
+    "location": [
+      "virtual",
+      "online"
+    ],
+    "format": "panel",
+    "moderator": "Kay Morrison",
+    "audience_size": null,
+    "requestor_name": "Ben Adler",
+    "requestor_org": "New England Data Society",
+    "ask": "panel"
+  },
+  "forbidden": {
+    "location": [
+      "Providence"
+    ]
+  }
+}

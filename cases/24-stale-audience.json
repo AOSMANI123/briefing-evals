@@ -1,0 +1,23 @@
+{
+  "id": "24-stale-audience",
+  "category": "stale_info",
+  "trap": "Last year's attendance is given; this year's is not.",
+  "source": "Subject: Keynote - Atlantic Fintech Week\n\nHello,\n\nAtlantic Fintech Week returns on May 18, 2027 in Boston, MA. Last year's event drew 3,000 people, and this year we've moved to a smaller venue to keep it focused. We'd be honored if your CEO would give a keynote.\n\nBest,\nSasha Petrova\nHead of Events, Atlantic Fintech Association",
+  "expected": {
+    "event_name": "Atlantic Fintech Week",
+    "date": "May 18, 2027",
+    "location": "Boston",
+    "format": "keynote",
+    "moderator": null,
+    "audience_size": null,
+    "requestor_name": "Sasha Petrova",
+    "requestor_org": "Atlantic Fintech Association",
+    "ask": "keynote"
+  },
+  "forbidden": {
+    "audience_size": [
+      "3,000",
+      "3000"
+    ]
+  }
+}

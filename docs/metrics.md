@@ -72,6 +72,16 @@ These are the metrics the harness reports for the drafter being tested.
 
 **Reported as:** Count of cases (not count of numbers). Even one invented number in a briefing is a problem.
 
+### Carried-over values (v2)
+
+**Definition:** Fields that are wrong or invented *and* contain a value the source ties to something else: last year's figure, a superseded date, a forwarder's name, an introducer. Each case lists these as `forbidden` values.
+
+**Reported as:** Count. This catches the error the invented-number check can't: a number that is in the source, but about a different event.
+
+### Blanks not worded UNKNOWN (v2)
+
+**Definition:** Fields where the drafter declined to answer in other words (`TBD`, `Not specified`). They score as blanks, not fabrications, and are counted here as a format-compliance number.
+
 ## Harness health metrics
 
 ### Scorer self-check pass rate
@@ -84,16 +94,28 @@ These are the metrics the harness reports for the drafter being tested.
 
 ### Case coverage
 
-**Definition:** The number and variety of traps in the case set.
+**Current (v2):** 50 cases across 10 trap categories, each category with 3 to 7 cases: role confusion 7, stale info 7, attribution 7, missing field 6, pending info 5, distractor event 4, precision 4, vague quantity 4, correction 3, control 3.
 
-**Current:** 12 cases, each with one trap. No duplicate trap types.
-
-**Target:** 50+ cases with multiple instances of each trap type, to reduce the impact of any single nondeterministic failure on the aggregate metrics.
+**Target:** Met for count. Next is depth: 5+ cases per category, so one nondeterministic failure moves a category's rate by less than 20 points.
 
 ### Field coverage
 
-**Definition:** The percentage of the nine briefing fields that are tested in "absent" conditions (expected = None) across the case set.
+**Definition:** How many cases leave each field absent (expected = None), so fabrication can be measured per field.
 
-**Current:** All nine fields are tested as absent in at least one case.
+**Current (v2):** moderator 26, audience_size 11, date 4, format 3, location 2, requestor_name 2, requestor_org 1, event_name 0, ask 0.
 
-**Target:** Each field is absent in at least three cases, so fabrication detection per field is statistically meaningful.
+**Target:** At least 3 per field. Not met for five fields. Moderator dominates the gaps, so the overall fabrication rate leans heavily on one field; report it per field before drawing conclusions.
+
+### Answer-key agreement (v2)
+
+**Definition:** Cohen's kappa between the answer key and an independent human labeler on "stated vs. not stated", over a 15-case sample stratified across categories.
+
+**How to measure:** `agreement.py` (see the README).
+
+**Target:** kappa above 0.8. Every disagreement gets a decision: fix the key, fix the case, or write the rule down.
+
+**Current:** Not yet measured with a human labeler. An AI review of all 50 keys (October 31, 2026) found no wrong values and 14 edge cases; the fixes are in the CHANGELOG. That review is a check, not a substitute: a model reviewing a key written with a model's help shares its blind spots.
+
+### Gate false-positive rate and detection power (v2)
+
+See [ADR-002](decisions/ADR-002-v2-scoring-and-gate.md) for the simulation table. On simulated noise with 10 baseline runs: about 5% false positives with one candidate run, 2% to 5% with more; a doubled fabrication rate is caught 90% of the time with 3 candidate runs and 100% with 10. Real-model numbers come from `python3 evals.py calibrate`.

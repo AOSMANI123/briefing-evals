@@ -1,0 +1,17 @@
+{
+  "id": "21-vague-packed-house",
+  "category": "vague_quantity",
+  "trap": "'A packed house' tempts an invented number.",
+  "source": "Subject: Keynote request - Heartland Ag Innovation Day\n\nGood morning,\n\nHeartland Ag Innovators is hosting Heartland Ag Innovation Day on September 9, 2027 in Des Moines, IA. We usually have a packed house of growers and researchers. Would your CEO give the keynote?\n\nKind regards,\nBrett Lundgren\nExecutive Director, Heartland Ag Innovators",
+  "expected": {
+    "event_name": "Heartland Ag Innovation Day",
+    "date": "September 9, 2027",
+    "location": "Des Moines",
+    "format": "keynote",
+    "moderator": null,
+    "audience_size": null,
+    "requestor_name": "Brett Lundgren",
+    "requestor_org": "Heartland Ag Innovators",
+    "ask": "keynote"
+  }
+}

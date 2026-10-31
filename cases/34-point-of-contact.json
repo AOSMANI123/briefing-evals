@@ -1,0 +1,25 @@
+{
+  "id": "34-point-of-contact",
+  "category": "attribution",
+  "trap": "A logistics contact is named. The requestor is still the sender.",
+  "source": "Subject: Q&A at the Lakeview Policy Dialogue\n\nHello,\n\nOn behalf of the Lakeview Policy Forum, I'd like to invite your CEO to a 45-minute Q&A at the Lakeview Policy Dialogue on May 25, 2027 in Cleveland, OH. Joan Ferris will moderate, with 120 guests attending. Please coordinate logistics with my colleague Derek Fong.\n\nBest,\nHannah Weiss\nVP of Events, Lakeview Policy Forum",
+  "expected": {
+    "event_name": "Lakeview Policy Dialogue",
+    "date": "May 25, 2027",
+    "location": "Cleveland",
+    "format": "Q&A",
+    "moderator": "Joan Ferris",
+    "audience_size": "120",
+    "requestor_name": "Hannah Weiss",
+    "requestor_org": "Lakeview Policy Forum",
+    "ask": [
+      "45-minute Q&A",
+      "Q&A"
+    ]
+  },
+  "forbidden": {
+    "requestor_name": [
+      "Derek Fong"
+    ]
+  }
+}

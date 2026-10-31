@@ -1,0 +1,23 @@
+{
+  "id": "39-panelists-not-moderator",
+  "category": "role_confusion",
+  "trap": "Other panelists are named; the moderator is still to be confirmed.",
+  "source": "Subject: Panel - EdTech Horizons Conference\n\nHello,\n\nThe Ohio EdTech Collaborative invites your CEO to a panel at the EdTech Horizons Conference on June 2, 2027 in Columbus, OH, before about 550 educators. Other panelists include Dr. Ruth Asante and Mark Liu. Moderator to be confirmed.\n\nBest,\nTara Quinn\nConference Director, Ohio EdTech Collaborative",
+  "expected": {
+    "event_name": "EdTech Horizons Conference",
+    "date": "June 2, 2027",
+    "location": "Columbus",
+    "format": "panel",
+    "moderator": null,
+    "audience_size": "550",
+    "requestor_name": "Tara Quinn",
+    "requestor_org": "Ohio EdTech Collaborative",
+    "ask": "panel"
+  },
+  "forbidden": {
+    "moderator": [
+      "Ruth Asante",
+      "Mark Liu"
+    ]
+  }
+}

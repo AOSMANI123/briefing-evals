@@ -1,0 +1,22 @@
+{
+  "id": "50-moderator-changed",
+  "category": "correction",
+  "trap": "The moderator changed in a correction. Use the new one.",
+  "source": "Subject: Sun Belt Retail Summit - correction\n\nHi,\n\nThe Sun Belt Retail Council invites your CEO to a fireside chat at the Sun Belt Retail Summit on February 16, 2027 in Tampa, FL, for 500 attendees, moderated by Pat Gill.\n\nCorrection: Pat Gill can no longer moderate. Yuki Tanaka will moderate instead.\n\nBest,\nLauren Diaz\nDirector of Programs, Sun Belt Retail Council",
+  "expected": {
+    "event_name": "Sun Belt Retail Summit",
+    "date": "February 16, 2027",
+    "location": "Tampa",
+    "format": "fireside chat",
+    "moderator": "Yuki Tanaka",
+    "audience_size": "500",
+    "requestor_name": "Lauren Diaz",
+    "requestor_org": "Sun Belt Retail Council",
+    "ask": "fireside chat"
+  },
+  "forbidden": {
+    "moderator": [
+      "Pat Gill"
+    ]
+  }
+}

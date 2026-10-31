@@ -1,0 +1,26 @@
+{
+  "id": "35-signed-by-office",
+  "category": "attribution",
+  "trap": "Signed by an office, not a person.",
+  "source": "Subject: Commencement address invitation\n\nDear team,\n\nWestbrook University invites your CEO to deliver the commencement address on May 15, 2027 in Burlington, VT. About 5,000 graduates and guests will attend.\n\nOffice of the President\nWestbrook University",
+  "expected": {
+    "event_name": [
+      "Westbrook University commencement",
+      "commencement"
+    ],
+    "date": "May 15, 2027",
+    "location": "Burlington",
+    "format": [
+      "commencement address",
+      "address"
+    ],
+    "moderator": null,
+    "audience_size": [
+      "5,000",
+      "5000"
+    ],
+    "requestor_name": null,
+    "requestor_org": "Westbrook University",
+    "ask": "commencement address"
+  }
+}

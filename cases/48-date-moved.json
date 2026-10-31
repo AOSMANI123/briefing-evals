@@ -1,0 +1,22 @@
+{
+  "id": "48-date-moved",
+  "category": "correction",
+  "trap": "The date changed in a follow-up. Use the new date.",
+  "source": "Subject: Green Cities Expo keynote (updated)\n\nHi,\n\nGreen Cities Network would like your CEO to give the keynote at the Green Cities Expo on May 6, 2027 in Madison, WI, for about 600 attendees.\n\nUpdate: the date has moved to May 13, 2027.\n\nThanks,\nHilary Fisk\nEvents Lead, Green Cities Network",
+  "expected": {
+    "event_name": "Green Cities Expo",
+    "date": "May 13, 2027",
+    "location": "Madison",
+    "format": "keynote",
+    "moderator": null,
+    "audience_size": "600",
+    "requestor_name": "Hilary Fisk",
+    "requestor_org": "Green Cities Network",
+    "ask": "keynote"
+  },
+  "forbidden": {
+    "date": [
+      "May 6"
+    ]
+  }
+}
