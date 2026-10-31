@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. Format follows [Keep a Changelog](https://keepachangelog.com/).
 
+## [Unreleased]
+
+Briefing Evals v2, step 1: fix the scorer using the v1 real-model findings.
+
+### Added
+- Prior-year check: cases can list past-event figures under `prior_year`; any answered field containing one is flagged and counted.
+- `prior_year` annotations for case 03 (last year's date) and case 05 (last year's 40,000 viewers).
+- `mock-honest-wording` and `mock-stale` drafters, and 15 new scorer tests, including a check that every case mentioning "last year" is annotated.
+- Two new summary lines: prior-year figures, and blanks not written as `UNKNOWN`.
+
+### Changed
+- Honest blanks in common wordings ("Not specified", "TBD", "N/A", "Pending", "To be confirmed", "Not stated in the request") now score as blanks instead of fabrications. The first clause of the value decides, so "Cleveland (venue pending)" still counts as an answer.
+
 ## [0.2.0] - October 1, 2026
 
 ### Added
