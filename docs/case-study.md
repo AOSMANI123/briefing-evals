@@ -72,8 +72,8 @@ So the honest real-world fabrication count under the naive prompt is closer to 3
 
 ### What this changed about the harness
 
-1. **The scorer should accept honest blanks in any wording.** Treat `Not specified`, `TBD`, `N/A` and similar as `UNKNOWN`, so the fabrication metric measures invention, not formatting. Otherwise the naive prompt looks far worse than it is, and a team might "fix" the wrong problem.
-2. **The invented-number check needs context.** A number copied from the source can still be wrong if it describes a different event. Case 05 needs a field-level check that last year's figures stay out of this year's fields.
+1. **The scorer should accept honest blanks in any wording.** Treat `Not specified`, `TBD`, `N/A` and similar as `UNKNOWN`, so the fabrication metric measures invention, not formatting. Otherwise the naive prompt looks far worse than it is, and a team might "fix" the wrong problem. *Done in v2:* the scorer reads the first clause of each value, so `TBD (not yet locked)` is a blank and `Cleveland (venue pending)` is an answer. Blanks not written as `UNKNOWN` are counted on their own line, so format compliance stays visible without inflating the fabrication rate.
+2. **The invented-number check needs context.** A number copied from the source can still be wrong if it describes a different event. Case 05 needs a field-level check that last year's figures stay out of this year's fields. *Done in v2:* each case can list its past-event figures under `prior_year` in the answer key, and the scorer flags any answered field that contains one. A test fails if a case mentions "last year" without that list, so new cases can't skip it.
 3. **Case 02's answer key needs a decision.** Either add an introducer field or document that an emcee is not a moderator.
 4. **Run each prompt several times before trusting a gate.** These are single runs. The nondeterminism threshold in [ADR-001](decisions/ADR-001-nondeterminism-threshold.md) still needs N repeated runs to calibrate.
 

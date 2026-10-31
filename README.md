@@ -8,7 +8,7 @@ A small test harness that checks whether an AI makes up facts when it drafts a b
 
 - **12 test cases**, each a fictional request with a trap: no moderator, last year's date, a forwarded email, a vague crowd size, two events in one message.
 - **An answer key** for nine briefing fields per case, with `null` where the source says nothing.
-- **A scorer** that reports recall on stated fields, the fabrication rate on unstated ones, wrong values, and any number that isn't in the source.
+- **A scorer** that reports recall on stated fields, the fabrication rate on unstated ones, wrong values, any number that isn't in the source, and any figure from a past event carried into this year's fields. Honest blanks count as blanks in any common wording ("Not specified", "TBD"), and are reported separately as a format issue.
 - **Two prompts to compare:** a vague one and one with explicit rules.
 - **Mock drafters** that prove the scorer works with no API key.
 
@@ -26,7 +26,7 @@ A small test harness that checks whether an AI makes up facts when it drafts a b
  JSON with 9 fields
         │
         ▼
- scorer: structure → containment → fabrication → invented numbers
+ scorer: structure → honest blanks → containment → fabrication → invented numbers → prior-year figures
         │
         ▼
  recall · fabrication rate · wrong values · per-case failures
@@ -76,6 +76,8 @@ cd briefing-evals
 python3 -m unittest discover -s tests
 python3 evals.py --drafter mock-faithful     # should score 100%, 0 fabrications
 python3 evals.py --drafter mock-fabricator   # should be caught on all 12 gaps
+python3 evals.py --drafter mock-honest-wording  # says "TBD" instead of UNKNOWN: 0 fabrications, 12 format notes
+python3 evals.py --drafter mock-stale        # copies last year's figures: both caught as prior-year
 ```
 
 ### 3. Test a real model
@@ -112,7 +114,7 @@ First real run, October 7, 2026, `claude-sonnet-5`, one run per prompt:
 
 **The headline is misleading, and that's the finding.** Seven of the naive prompt's ten "fabrications" were the model writing "TBD" or "Not specified" instead of the exact word `UNKNOWN`. Three were real: last year's audience size carried into this year's briefing, a team name put in a person's name field, and an emcee labeled as the moderator. The rules prompt fixed two of the three, and cost 4 stated fields along the way.
 
-The full analysis, and what it changed about the scorer, is in the [case study](docs/case-study.md).
+The full analysis, and what it changed about the scorer, is in the [case study](docs/case-study.md). The v2 scorer now applies the first two fixes from that analysis: honest blanks in any wording count as blanks, and a field-level check keeps last year's figures out of this year's fields. The October 7 numbers above were scored with the v1 scorer and haven't been re-run yet.
 
 ---
 
